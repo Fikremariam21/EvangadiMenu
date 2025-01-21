@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "./assets/components/Header/Header";
-import AllFoods from "./assets/components/AllFoods/AllFoods";
+import FoodItems from "./assets/components/FoodItems/FoodItems";
+ 
 
 
 class App extends Component {
@@ -9,7 +10,7 @@ class App extends Component {
       <>
         <div className="all-container">
           <Header />
-          <AllFoods/>
+           <FoodItems/>
            
         </div>
       </>

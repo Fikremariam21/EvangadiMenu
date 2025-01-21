@@ -3,14 +3,16 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #deeff2;
   font-family: 'Poppins', sans-serif;
+  padding: 10px;
 }
 
-/* .all-container {
+.all-container {
   width: 95%;
   margin: 0 auto;
-} */
+}

@@ -76,6 +76,7 @@ body {
 }
 
 .title-price > p {
+  display: inline-block;
   background-color: #ff9500;
   padding: 3px 7px;
   color: white;
@@ -101,14 +102,27 @@ body {
 
 @media (max-width: 768px) {
   .foods-container {
-    max-width: 440px;
+    max-width: 100%; 
+    /* At the top line 440px to 100% */
+    /* The padding added */
+    padding: 0 10px;
     grid-template-columns: 1fr;
+    gap: 20px;
   }
-
+/* This may corrected */
   .single-food {
     max-width: 100%;
     height: auto;
     padding-bottom: 36px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 1440px) {
+  .foods-container {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1400px;
   }
 }
 /* food end */
