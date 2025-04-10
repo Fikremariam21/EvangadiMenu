@@ -16,7 +16,7 @@ export default class FoodItems extends Component {
                 img={img}
                 title={title}
                 price={price}
-                desc={desc}
+                desc={desc} 
               />
             );
           })}
